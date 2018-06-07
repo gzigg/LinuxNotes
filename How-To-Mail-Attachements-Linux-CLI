@@ -1,0 +1,4 @@
+#  These commands are used in Linux shells to email with attachements:
+OLD:    uuencode NTPscripts.tar.gz NTPscritps.tar.gz | mail pjasa@univision.net  
+NEW:      mutt -a Fortinet-Conversion-Scripts.tar pjasa@univision.net < /dev/null
+
