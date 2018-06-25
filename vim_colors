@@ -1,0 +1,11 @@
+On RHEL 7.x, to set the default color scheme on vim, you can do it per vim session OR permanently this way:
+Per vim session
+  once in vim, enter ":color desert"  (remove quotes) into vim cli
+  Hint:  color is short for colorscheme  and if you type ":colorscheme " (add a space!) and tab, all the possible color combinations will cycle through.
+  this will change the colors for that session only, as soon as you close and come back it will return to previous color scheme
+  
+Change Default VIM Color Scheme
+  at least on RHEL, it seems if you edit the /etc/vimrc file by adding this ine (or uncommenting it as the case may be):
+    set background=dark
+  it will change your default vim colors henceforth
+   
